@@ -5,99 +5,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PDV | Portfolio</title>
     <link rel="icon" type="image/x-icon" href="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-33C238166BB992E0F6E17752A0051255-Png/150/150/AvatarHeadshot/Webp/noFilter">
-    <!-- Load Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Load Inter Font -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f9fafb; /* Light background */
+            background-color: #111827; /* Tailwind bg-gray-900 */
         }
     </style>
-    <!-- Load Lucide Icons CDN (for simple icons) -->
     <script type="module" src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body class="text-gray-900 antialiased">
+<body class="text-gray-100 antialiased">
 
-    <!-- Header & Navigation -->
-    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
+    <header class="sticky top-0 z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-700">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <a href="#home" class="text-2xl font-bold text-cyan-600 hover:text-cyan-800 transition duration-300">
+            <a href="#home" class="text-2xl font-bold text-cyan-500 hover:text-cyan-400 transition duration-300">
                 Portfolio
             </a>
             <nav class="hidden md:flex space-x-8">
-                <a href="#about" class="text-gray-700 hover:text-cyan-600 transition duration-300 font-medium">About</a>
-                <a href="#projects" class="text-gray-700 hover:text-cyan-600 transition duration-300 font-medium">Projects</a>
-                <a href="#openscr" class="text-gray-700 hover:text-cyan-600 transition duration-300 font-medium">Open Source Code</a>
-                <a href="#contact" class="text-gray-700 hover:text-cyan-600 transition duration-300 font-medium">Contact</a>
+                <a href="#about" class="text-gray-300 hover:text-cyan-500 transition duration-300 font-medium">About Me</a>
+                <a href="#projects" class="text-gray-300 hover:text-cyan-500 transition duration-300 font-medium">Projects</a>
+                <a href="#showcases" class="text-gray-300 hover:text-cyan-500 transition duration-300 font-medium">Showcases</a> 
+                <a href="#contact" class="text-gray-300 hover:text-cyan-500 transition duration-300 font-medium">Contact Me</a>
             </nav>
-            <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none">
+            <button id="mobile-menu-button" class="md:hidden text-gray-300 focus:outline-none">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
             </button>
         </div>
 
-        <!-- Mobile Menu (Hidden by default) -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
-            <a href="#about" class="block py-3 px-6 text-gray-700 hover:bg-gray-100 hover:text-cyan-600 transition duration-300">About</a>
-            <a href="#projects" class="block py-3 px-6 text-gray-700 hover:bg-gray-100 hover:text-cyan-600 transition duration-300">Projects</a>
-            <a href="#openscr" class="block py-3 px-6 text-gray-700 hover:bg-gray-100 hover:text-cyan-600 transition duration-300">Open Source Code</a>
-            <a href="#contact" class="block py-3 px-6 text-gray-700 hover:bg-gray-100 hover:text-cyan-600 transition duration-300">Contact</a>
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-900 border-t border-gray-700">
+            <a href="#about" class="block py-3 px-6 text-gray-300 hover:bg-gray-800 hover:text-cyan-500 transition duration-300">About Me</a>
+            <a href="#projects" class="block py-3 px-6 text-gray-300 hover:bg-gray-800 hover:text-cyan-500 transition duration-300">Projects</a>
+            <a href="#showcases" class="block py-3 px-6 text-gray-300 hover:bg-gray-800 hover:text-cyan-500 transition duration-300">Showcases</a>
+            <a href="#contact" class="block py-3 px-6 text-gray-300 hover:bg-gray-800 hover:text-cyan-500 transition duration-300">Contact Me</a>
         </div>
     </header>
 
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
-        <!-- Hero Section -->
-        <section id="home" class="pt-20 pb-32 flex flex-col md:flex-row items-center justify-between gap-12 text-center md:text-left">
+        <section id="home" class="pt-20 pb-32 flex flex-col md:flex-row items-center justify-center gap-12 text-center">
             <div class="md:w-3/5">
-                <h1 class="text-5xl sm:text-7xl font-extrabold text-gray-900 leading-tight">
-                    Roblox <span class="text-cyan-600">Scripter</span> <br class="hidden sm:inline"> with 3+ years of experience.
+                <h1 class="text-5xl sm:text-7xl font-extrabold text-white leading-tight">
+                    Roblox <span class="text-cyan-500">Scripter</span> <br class="hidden sm:inline"> with 3+ years of experience.
                 </h1>
-                <p class="mt-6 text-xl text-gray-600 max-w-xl">
-                    Fullstack Roblox Scripter with 3+ years of experience specializing in Battlegrounds, Fighting, and Simulator games. I build engaging combat systems, scalable server logic, and intuitive UI. A proven collaborator in team environments and a self-motivated independent developer.
+                <p class="mt-6 text-xl text-gray-400 max-w-xl mx-auto">
+                    My name is PDV. I am a Fullstack Scripter who works with a modular architecture and applies OOP in development. I am capable of working effectively both independently and as part of a team.
                 </p>
-                <div class="mt-10 flex justify-center md:justify-start space-x-4">
-                    <a href="#projects" class="px-8 py-3 bg-white-600 text-black font-semibold rounded-lg shadow-lg shadow-black-600/30 hover:bg-gray-700 hover:text-white transition duration-300 transform hover:scale-105">
-                        <span class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code mr-2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>View Projects</span>
+                <div class="mt-10 flex flex-wrap justify-center space-x-4 space-y-2 md:space-y-0">
+                    <a href="#contact" class="px-8 py-3 bg-cyan-600 text-white font-semibold rounded-lg shadow-lg shadow-cyan-600/30 hover:bg-cyan-700 transition duration-300 transform hover:scale-105 inline-flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="8 0 28 28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase-business mr-2"><path d="M22 12h-4c-2.2 0-4 1.8-4 4v4c0 2.2 1.8 4 4 4h4c2.2 0 4-1.8 4-4v-4c0-2.2-1.8-4-4-4z"/><path d="M16 12V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v8"/></svg>
+                        Hire Me
                     </a>
-                    <a href="#contact" class="px-8 py-3 border border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105">
-                        Contact Me
+                    <a href="#projects" class="px-8 py-3 border border-gray-700 text-gray-100 font-semibold rounded-lg hover:bg-gray-800 transition duration-300 transform hover:scale-105 inline-flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code mr-2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                        View Projects
                     </a>
                 </div>
-            </div>
-            <div class="md:w-2/5 flex justify-center">
+                </div>
+            <div class="md:w-2/5 flex flex-col items-center justify-center">
                 <img 
                     src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-33C238166BB992E0F6E17752A0051255-Png/480/480/AvatarHeadshot/Webp/noFilter"
                     alt="phongski389" 
                     class="w-64 h-64 object-cover rounded-full border-4 border-cyan-600 shadow-2xl shadow-cyan-600/50"
                     onerror="this.onerror=null; this.src='https://placehold.co/256x256/f0f4f8/222222?text=Failed+to+Load'">
-                <img/>
-                <p class="mt-4 text-lg text-lg font-semibold text-gray-1000 items-center">
+                <p class="mt-4 text-lg font-semibold text-gray-300 items-center">
                     🟢 Available
                 </p>
             </div>
         </section>
 
-        <!-- About Me Section -->
-        <section id="about" class="py-20 border-t border-gray-200">
-            <h2 class="text-4xl font-bold text-gray-900 mb-8 text-center">System Architect</h2>
-            <div class="bg-white p-8 rounded-xl shadow-xl border border-gray-200">
-                <p class="text-xl text-gray-600 leading-relaxed text-center">
-                    I develop core game systems based on modular architecture and OOP principles, ensuring that all systems are structured, scalable, and easy to maintain.
+        <section id="about" class="py-20 border-t border-gray-700">
+            <h2 class="text-4xl font-bold text-white mb-8 text-center">About Me</h2>
+            <div class="bg-gray-800 p-8 rounded-xl shadow-xl border border-gray-700">
+                <p class="text-xl text-gray-300 leading-relaxed text-center">
+                    Fullstack Roblox Scripter with 3+ years of experience specializing in Battlegrounds, Fighting, and Simulator games. I build engaging combat systems, scalable server logic, and intuitive UI. A proven collaborator in team environments and a self-motivated independent developer.
                 </p>
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projects" class="py-20 border-t border-gray-200">
-            <h2 class="text-4xl font-bold text-gray-900 mb-10 text-center">My Great Projects</h2>
+        <section id="projects" class="py-20 border-t border-gray-700">
+            <h2 class="text-4xl font-bold text-white mb-10 text-center">My Great Projects</h2>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <div class="project-card">
                     <div class="p-6">
-                        <h3 class="text-2xl font-bold text-cyan-600 mb-2">Coalition Battlegrounds</h3>
-                        <p class="text-gray-600 mb-4 text-base">Optimized and smooth. Good combat system. Work in progress</p>
-                        <a href="https://www.roblox.com/games/17624438086/Coalition-Battlegrounds" target="_blank" class="text-sm text-cyan-600 hover:text-cyan-800 font-semibold flex items-center mt-3">
+                        <h3 class="text-2xl font-bold text-cyan-500 mb-2">Coalition Battlegrounds</h3>
+                        <p class="text-gray-400 mb-4 text-base">Optimized and smooth. Good combat system. Work in progress</p>
+                        <a href="https://www.roblox.com/games/17624438086/Coalition-Battlegrounds" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center mt-3">
                             View Game <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
                         </a>
                     </div>
@@ -105,9 +98,9 @@
 
                 <div class="project-card">
                     <div class="p-6">
-                        <h3 class="text-2xl font-bold text-cyan-600 mb-2">[☄️BASEWAR] Hunt The King</h3>
-                        <p class="text-gray-600 mb-4 text-base">This game have been transferred to another owner.</p>
-                        <a href="https://www.roblox.com/games/16150763708/BASEWAR-Hunt-The-King" target="_blank" class="text-sm text-cyan-600 hover:text-cyan-800 font-semibold flex items-center mt-3">
+                        <h3 class="text-2xl font-bold text-cyan-500 mb-2">[☄️BASEWAR] Hunt The King</h3>
+                        <p class="text-gray-400 mb-4 text-base">This game have been transferred to another owner.</p>
+                        <a href="https://www.roblox.com/games/16150763708/BASEWAR-Hunt-The-King" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center mt-3">
                             View Game <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
                         </a>
                     </div>
@@ -115,9 +108,9 @@
 
                 <div class="project-card">
                     <div class="p-6">
-                        <h3 class="text-2xl font-bold text-cyan-600 mb-2">Brainrot Showdown</h3>
-                        <p class="text-gray-600 mb-4 text-base">Work in progress.</p>
-                        <a href="https://www.roblox.com/games/120101305497557/Brainrot-Showdown" target="_blank" class="text-sm text-cyan-600 hover:text-cyan-800 font-semibold flex items-center mt-3">
+                        <h3 class="text-2xl font-bold text-cyan-500 mb-2">Brainrot Showdown</h3>
+                        <p class="text-gray-400 mb-4 text-base">Work in progress.</p>
+                        <a href="https://www.roblox.com/games/120101305497557/Brainrot-Showdown" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center mt-3">
                             View Game <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
                         </a>
                     </div>
@@ -125,17 +118,17 @@
             </div>
         </section>
 
-         <section id="projects" class="py-20 border-t border-gray-200">
-            <h2 class="text-4xl font-bold text-gray-900 mb-10 text-center">Showcases</h2>
+         <section id="showcases" class="py-20 border-t border-gray-700">
+            <h2 class="text-4xl font-bold text-white mb-10 text-center">Showcases</h2>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 <div class="project-card">
                     <div class="p-6">
-                        <h3 class="text-2xl font-bold text-cyan-600 mb-2">Battlegrounds Game</h3>
-                        <p class="text-gray-600 mb-4 text-base">Watch my devlog on Youtube.</p>
-                        <a href="https://www.youtube.com/watch?v=wAQ-BuoeXdU&t=13s" target="_blank" class="text-sm text-cyan-600 hover:text-cyan-800 font-semibold flex items-center mt-3">
+                        <h3 class="text-2xl font-bold text-cyan-500 mb-2">Battlegrounds Game</h3>
+                        <p class="text-gray-400 mb-4 text-base">Watch my devlog on Youtube.</p>
+                        <a href="https://www.youtube.com/watch?v=wAQ-BuoeXdU&t=13s" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center mt-3">
                             Devlog #1 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
                         </a>
-                        <a href="https://www.youtube.com/watch?v=nNE_JNC_g4A&t=3s" target="_blank" class="text-sm text-cyan-600 hover:text-cyan-800 font-semibold flex items-center mt-3">
+                        <a href="https://www.youtube.com/watch?v=nNE_JNC_g4A&t=3s" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center mt-3">
                             Devlog #2 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
                         </a>
                     </div>
@@ -143,52 +136,42 @@
 
                 <div class="project-card">
                     <div class="p-6">
-                        <h3 class="text-2xl font-bold text-cyan-600 mb-2">Fighting Game</h3>
-                        <p class="text-gray-600 mb-4 text-base">Watch videos on Youtube.</p>
-                        <a href="https://youtu.be/uPvM23TvAis?si=fliPA8YyobUwjnN7" target="_blank" class="text-sm text-cyan-600 hover:text-cyan-800 font-semibold flex items-center mt-3">
-                            Watch Review #1 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                        <h3 class="text-2xl font-bold text-cyan-500 mb-2">Fighting Game</h3>
+                        <p class="text-gray-400 mb-4 text-base">Watch videos on Youtube.</p>
+                        <a href="https://youtu.be/uPvM23TvAis?si=fliPA8YyobUwjnN7" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center mt-3">
+                            Watch Video #1 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="openscr" class="py-20 border-t border-gray-200">
-            <h2 class="text-4xl font-bold text-gray-900 mb-10 text-center">Open Source Code</h2>
-            <div class="bg-white p-8 rounded-xl shadow-xl border border-gray-200">
-                <div class="flex flex-wrap gap-4 justify-center">
-                    <span class="skill-tag">There is no open source code</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="py-20 border-t border-gray-200">
-            <h2 class="text-4xl font-bold text-gray-900 mb-10 text-center">Contact Me</h2>
-            <div class="flex flex-col md:flex-row gap-8 bg-white p-8 rounded-xl shadow-xl border border-gray-200 items-center justify-center">
+        <section id="contact" class="py-20 border-t border-gray-700">
+            <h2 class="text-4xl font-bold text-white mb-10 text-center">Contact Me</h2>
+            <div class="flex flex-col md:flex-row gap-8 bg-gray-800 p-8 rounded-xl shadow-xl border border-gray-700 items-center justify-center">
                 
                 <div class="md:w-1/2 space-y-6">
-                    <p class="text-lg text-gray-600">
+                    <p class="text-lg text-gray-300">
                         I am available for new projects, full-stack developer. Reach out directly or contact via my socials.
                     </p>
                     
-                    <a href="mailto:phongkorea389@gmail.com" class="block bg-gray-100 p-4 rounded-lg hover:bg-gray-200 transition duration-300">
+                    <a href="mailto:phongkorea389@gmail.com" class="block bg-gray-700 p-4 rounded-lg hover:bg-gray-600 transition duration-300">
                         <div class="flex items-center space-x-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail text-cyan-600"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                            <span class="font-medium text-gray-900">phongkorea389@gmail.com</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail text-cyan-500"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            <span class="font-medium text-white">phongkorea389@gmail.com</span>
                         </div>
                     </a>
 
-                    <div class="block bg-gray-100 p-4 rounded-lg">
+                    <div class="block bg-gray-700 p-4 rounded-lg">
                          <div class="flex items-center space-x-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square text-cyan-600"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-                            <span class="font-medium text-gray-900">Discord: .phongdev (PhongDev#9418)</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square text-cyan-500"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                            <span class="font-medium text-white">Discord: .phongdev (PhongDev#9418)</span>
                         </div>
                     </div>
                 </div>
 
                 <div class="md:w-1/2 space-y-4">
-                    <h4 class="text-xl font-semibold text-gray-900 mt-4 md:mt-0">Socials</h4>
+                    <h4 class="text-xl font-semibold text-white mt-4 md:mt-0">Socials</h4>
                     <div class="flex flex-wrap justify-center md:justify-start gap-4">
                         <a href="https://www.roblox.com/users/1158620607/profile" target="_blank" class="social-link">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad-2"><path d="M6.3 10.6a2 2 0 1 1-2.6-2.6L7 3l.2.4A10 10 0 0 1 12 2a10 10 0 0 1 4.8 1.4l.2-.4 3.3 5-2.6 2.6a2 2 0 1 1-2.6 2.6L12 17.5l-2.4-2.4a2 2 0 0 1-2.6-2.6zM12 22a8 8 0 0 0 8-8V8a8 8 0 0 0-8-8 8 8 0 0 0-8 8v6a8 8 0 0 0 8 8z"/></svg>
@@ -205,30 +188,27 @@
         </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="mt-12 py-6 border-t border-gray-200 bg-gray-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-500 text-sm">
-            &copy; 2025 By Phong Dev & Google Gemini.
+    <footer class="mt-12 py-6 border-t border-gray-700 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400 text-sm">
+            &copy; 2025 By PDV, Google Gemini & GitHub.
         </div>
     </footer>
 
-    <!-- Custom Tailwind Styles -->
     <style>
         .skill-tag {
-            /* Now using light background colors */
-            @apply px-3 py-1 bg-cyan-600/10 text-cyan-800 text-sm font-mono font-medium rounded-md transition duration-200 hover:bg-cyan-600 hover:text-white;
+            /* Adjusted for Dark Mode: softer cyan text on a slightly opaque cyan background */
+            @apply px-3 py-1 bg-cyan-600/20 text-cyan-400 text-sm font-mono font-medium rounded-md transition duration-200 hover:bg-cyan-600 hover:text-white;
         }
         .social-link {
-            /* Updated for light mode */
-            @apply flex items-center space-x-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg transition duration-300 hover:bg-cyan-600 hover:text-white;
+            /* Adjusted for Dark Mode: dark button with light text, hover is bright cyan */
+            @apply flex items-center space-x-2 px-4 py-2 bg-gray-700 text-gray-100 rounded-lg transition duration-300 hover:bg-cyan-600 hover:text-white;
         }
         .project-card {
-            /* Updated for light mode */
-            @apply bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-cyan-600/30 transition duration-500 border border-gray-200;
+            /* Adjusted for Dark Mode: dark gray background with dark gray border */
+            @apply bg-gray-800 rounded-xl overflow-hidden shadow-sm hover:shadow-cyan-600/30 transition duration-500 border border-gray-700;
         }
     </style>
 
-    <!-- JavaScript for Mobile Menu Toggle and Smooth Scroll -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const menuButton = document.getElementById('mobile-menu-button');
