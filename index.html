@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap">
     <link rel="stylesheet" href="style.css">
     <script type="module" src="https://unpkg.com/lucide@latest"></script>
+
+    <meta property="og:title" content="Pdv's Portfolio">
+    <meta property="og:description" content="Full-stack Roblox scripter.">
+    <meta property="og:url" content="https://phongeloper.github.io/portfolio/">
+    <meta property="og:image" content="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-33C238166BB992E0F6E17752A0051255-Png/480/480/AvatarHeadshot/Webp/noFilter"> <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Pdv Development">
 </head>
 <body class="text-gray-100 antialiased">
 
@@ -18,11 +24,12 @@
                 Home
             </a>
             <nav class="hidden md:flex space-x-8">
-                <a href="#about" class="text-gray-300 hover:text-cyan-500 transition duration-300 font-medium">About Me</a>
+                <a href="#about" class="text-gray-300 hover:text-cyan-500 transition duration-300 font-medium">About</a>
                 <a href="#projects" class="text-gray-300 hover:text-cyan-500 transition duration-300 font-medium">Projects</a>
-                <a href="#showcases" class="text-gray-300 hover:text-cyan-500 transition duration-300 font-medium">Showcases</a> 
-                <a href="#tos" class="text-gray-300 hover:text-cyan-500 transition duration-300 font-medium">Terms Of Service</a>
-                <a href="#contact" class="text-gray-300 hover:text-cyan-500 transition duration-300 font-medium">Contact Me</a>
+                <a href="#showcases" class="text-gray-300 hover:text-cyan-500 transition duration-300 font-medium">Showcases</a>
+                <a href="#prices" class="text-gray-300 hover:text-cyan-500 transition duration-300 font-medium">Prices</a>
+                <a href="#tos" class="text-gray-300 hover:text-cyan-500 transition duration-300 font-medium">ToS</a>
+                <a href="#contact" class="text-gray-300 hover:text-cyan-500 transition duration-300 font-medium">Contact</a>
             </nav>
             <button id="mobile-menu-button" class="md:hidden text-gray-300 focus:outline-none">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
@@ -30,11 +37,12 @@
         </div>
 
         <div id="mobile-menu" class="hidden md:hidden bg-gray-900 border-t border-gray-700">
-            <a href="#about" class="block py-3 px-6 text-gray-300 hover:bg-gray-800 hover:text-cyan-500 transition duration-300">About Me</a>
+            <a href="#about" class="block py-3 px-6 text-gray-300 hover:bg-gray-800 hover:text-cyan-500 transition duration-300">About</a>
             <a href="#projects" class="block py-3 px-6 text-gray-300 hover:bg-gray-800 hover:text-cyan-500 transition duration-300">Projects</a>
             <a href="#showcases" class="block py-3 px-6 text-gray-300 hover:bg-gray-800 hover:text-cyan-500 transition duration-300">Showcases</a>
+            <a href="#prices" class="block py-3 px-6 text-gray-300 hover:bg-gray-800 hover:text-cyan-500 transition duration-300">Prices</a>
             <a href="#tos" class="block py-3 px-6 text-gray-300 hover:bg-gray-800 hover:text-cyan-500 transition duration-300">Terms Of Service</a>
-            <a href="#contact" class="block py-3 px-6 text-gray-300 hover:bg-gray-800 hover:text-cyan-500 transition duration-300">Contact Me</a>
+            <a href="#contact" class="block py-3 px-6 text-gray-300 hover:bg-gray-800 hover:text-cyan-500 transition duration-300">Contact</a>
         </div>
     </header>
 
@@ -100,203 +108,309 @@
             <h2 class="text-4xl font-bold text-white mb-10 text-center">My Great Projects</h2>
     
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                <div class="project-card group">
-                    <a href="https://www.roblox.com/games/17624438086/Coalition-Battlegrounds" target="_blank" class="block overflow-hidden">
+                
+                <div class="bg-gray-800 rounded-xl shadow-2xl overflow-hidden transform hover:translate-y-[-5px] transition duration-300 relative border border-gray-700 group">
+                    <span class="absolute top-4 left-4 bg-yellow-600 text-white text-xs font-bold px-3 py-1 rounded-full z-10">
+                        Work in Progress
+                    </span>
+                    <a href="https://www.roblox.com/games/17624438086/Coalition-Battlegrounds" target="_blank" class="block">
                         <img 
                             src="assets/coalition-battlegrounds.png" 
                             alt="Coalition Battlegrounds Thumbnail" 
-                            class="w-full h-full rounded-2xl object-cover transition duration-300 transform group-hover:scale-105"
-                            onerror="this.onerror=null; this.src='https://placehold.co/600x300/1f2937/d1d5db?text=Coalition+Battlegrounds'">
+                            class="w-full h-48 object-cover group-hover:opacity-90 transition duration-300"
+                            onerror="this.onerror=null; this.src='https://placehold.co/600x200/1f2937/d1d5db?text=Coalition+Battlegrounds'">
                     </a>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-cyan-500 mb-2">Coalition Battlegrounds</h3>
-                        <p class="text-gray-400 mb-4 text-base">Optimized and smooth. Good combat system. Work in progress</p>
+                        <p class="text-gray-400 mb-4 text-base">
+                            In this game, I'm a head scripter. I built the game with a smooth combat system and sense of power.
+                        </p>
                         <a href="https://www.roblox.com/games/17624438086/Coalition-Battlegrounds" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center mt-3">
                             View Game <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
                         </a>
                     </div>
                 </div>
 
-                <div class="project-card group">
-                    <a href="https://www.roblox.com/games/16150763708/BASEWAR-Hunt-The-King" target="_blank" class="block overflow-hidden">
+                <div class="bg-gray-800 rounded-xl shadow-2xl overflow-hidden transform hover:translate-y-[-5px] transition duration-300 relative border border-gray-700 group">
+                    <span class="absolute top-4 left-4 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full z-10">
+                        Transferred
+                    </span>
+                    <a href="https://www.roblox.com/games/16150763708/BASEWAR-Hunt-The-King" target="_blank" class="block">
                         <img 
                             src="assets/twena.png" 
                             alt="Hunt The King Thumbnail" 
-                            class="w-full h-full rounded-2xl object-cover transition duration-300 transform group-hover:scale-105"
-                            onerror="this.onerror=null; this.src='https://placehold.co/600x300/1f2937/d1d5db?text=Hunt+The+King'">
+                            class="w-full h-48 object-cover group-hover:opacity-90 transition duration-300"
+                            onerror="this.onerror=null; this.src='https://placehold.co/600x200/1f2937/d1d5db?text=Hunt+The+King'">
                     </a>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-cyan-500 mb-2">[☄️BASEWAR] Hunt The King</h3>
-                        <p class="text-gray-400 mb-4 text-base">This game has been transferred to another owner.</p>
+                        <p class="text-gray-400 mb-4 text-base">
+                            I'm a head scripter of this game before, but now the game has been transferred to another owner.
+                        </p>
                         <a href="https://www.roblox.com/games/16150763708/BASEWAR-Hunt-The-King" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center mt-3">
                             View Game <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
                         </a>
                     </div>
                 </div>
 
-                <div class="project-card group">
-                    <a href="https://www.roblox.com/games/120101305497557/Brainrot-Showdown" target="_blank" class="block overflow-hidden">
+                <div class="bg-gray-800 rounded-xl shadow-2xl overflow-hidden transform hover:translate-y-[-5px] transition duration-300 relative border border-gray-700 group">
+                    <span class="absolute top-4 left-4 bg-yellow-600 text-white text-xs font-bold px-3 py-1 rounded-full z-10">
+                        Work in Progress
+                    </span>
+                    <a href="https://www.roblox.com/games/120101305497557/Brainrot-Showdown" target="_blank" class="block">
                         <img 
                             src="assets/brainrot_btgs.png" 
                             alt="Brainrot Showdown Thumbnail" 
-                            class="w-full h-full rounded-2xl object-cover transition duration-300 transform group-hover:scale-105"
-                            onerror="this.onerror=null; this.src='https://placehold.co/600x300/1f2937/d1d5db?text=Brainrot+Showdown'">
+                            class="w-full h-48 object-cover group-hover:opacity-90 transition duration-300"
+                            onerror="this.onerror=null; this.src='https://placehold.co/600x200/1f2937/d1d5db?text=Brainrot+Showdown'">
                     </a>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-cyan-500 mb-2">Brainrot Showdown</h3>
-                        <p class="text-gray-400 mb-4 text-base">Work in progress.</p>
+                        <p class="text-gray-400 mb-4 text-base">
+                            I'm a head scripter of this game, I built a combat system with smooth sense.
+                        </p>
                         <a href="https://www.roblox.com/games/120101305497557/Brainrot-Showdown" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center mt-3">
                             View Game <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
                         </a>
                     </div>
                 </div>
                 
-                <div class="project-card group">
-                    <a href="https://www.roblox.com/games/102667004801396/Eldforge" target="_blank" class="block overflow-hidden">
+                <div class="bg-gray-800 rounded-xl shadow-2xl overflow-hidden transform hover:translate-y-[-5px] transition duration-300 relative border border-gray-700 group">
+                    <span class="absolute top-4 left-4 bg-yellow-600 text-white text-xs font-bold px-3 py-1 rounded-full z-10">
+                        Work in Progress
+                    </span>
+                    <a href="https://www.roblox.com/games/102667004801396/Eldforge" target="_blank" class="block">
                         <img 
                             src="assets/background.jpeg" 
                             alt="Eldforge Thumbnail" 
-                            class="w-full h-full rounded-2xl object-cover transition duration-300 transform group-hover:scale-105"
-                            onerror="this.onerror=null; this.src='https://placehold.co/600x300/1f2937/d1d5db?text=Eldforge'">
+                            class="w-full h-48 object-cover group-hover:opacity-90 transition duration-300"
+                            onerror="this.onerror=null; this.src='https://placehold.co/600x200/1f2937/d1d5db?text=Eldforge+RPG'">
                     </a>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-cyan-500 mb-2">Eldforge</h3>
-                        <p class="text-gray-400 mb-4 text-base">An RPG game. Work in progress.</p>
+                        <p class="text-gray-400 mb-4 text-base">
+                            I'm a head scripter of this game with the role is Backend Scripter, an RPG game where you can explore the world and more.
+                        </p>
                         <a href="https://www.roblox.com/games/102667004801396/Eldforge" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center mt-3">
-                            View Game <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                            View Game <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
                         </a>
                     </div>
                 </div>
 
-                <div class="project-card group">
-                    <a href="https://create.roblox.com/store/asset/77976064083503/StartupPlus-Free" target="_blank" class="block overflow-hidden">
+                <div class="bg-gray-800 rounded-xl shadow-2xl overflow-hidden transform hover:translate-y-[-5px] transition duration-300 relative border border-gray-700 group">
+                    <span class="absolute top-4 left-4 bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full z-10">
+                        Released
+                    </span>
+                    <a href="https://create.roblox.com/store/asset/77976064083503/StartupPlus-Free" target="_blank" class="block">
                         <img 
                             src="assets/background.jpeg" 
-                            alt="Thumbnail" 
-                            class="w-full h-full rounded-2xl object-cover transition duration-300 transform group-hover:scale-105"
-                            onerror="this.onerror=null; this.src='https://placehold.co/600x300/1f2937/d1d5db?text=Startup+Plus'">
+                            alt="Startup Plus Thumbnail" 
+                            class="w-full h-48 object-cover group-hover:opacity-90 transition duration-300"
+                            onerror="this.onerror=null; this.src='https://placehold.co/600x200/1f2937/d1d5db?text=Startup+Plus+Plugin'">
                     </a>
                     <div class="p-6">
                         <h3 class="text-2xl font-bold text-cyan-500 mb-2">Startup Plus [Plugin]</h3>
-                        <p class="text-gray-400 mb-4 text-base"> Customize your startup Script, LocalScript, and ModuleScript easily.</p>
+                        <p class="text-gray-400 mb-4 text-base">
+                            A module script that allowed you to customize your startup code.
+                        </p>
                         <a href="https://create.roblox.com/store/asset/77976064083503/StartupPlus-Free" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center mt-3">
                             View Plugin <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
                         </a>
                     </div>
                 </div>
+
             </div>
         </section>
 
         <section id="showcases" class="py-20 border-t border-gray-700">
-            <h2 class="text-4xl font-bold text-white mb-10 text-center">Showcases</h2>
+            <h2 class="text-4xl font-bold text-white mb-10 text-center">Devlogs & Showcases</h2>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                 
-                <div class="project-card group">
-                    <a target="_blank" class="block overflow-hidden">
+                <div class="bg-gray-800 rounded-xl shadow-2xl overflow-hidden transform hover:translate-y-[-5px] transition duration-300 border border-gray-700 group">
+                    <a target="_blank" class="block">
                         <img 
                             src="assets/coalition-battlegrounds.png" 
                             alt="Battlegrounds Devlog Thumbnail" 
-                            class="w-full h-full rounded-2xl object-cover transition duration-300 transform group-hover:scale-105"
-                            onerror="this.onerror=null; this.src='https://placehold.co/600x300/1f2937/d1d5db?text=Thumbnail'">
+                            class="w-full h-48 object-cover mb-4 rounded-xl group-hover:opacity-90 transition duration-300"
+                            onerror="this.onerror=null; this.src='https://placehold.co/600x200/1f2937/d1d5db?text=Battlegrounds+Devlog'">
                     </a>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-cyan-500 mb-2">Battlegrounds Game</h3>
-                        <p class="text-gray-400 mb-4 text-base">Watch my devlog on Youtube.</p>
-                        <a href="https://www.youtube.com/watch?v=wAQ-BuoeXdU&t=13s" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center mt-3">
-                            Devlog #1 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
-                        </a>
-                        <a href="https://www.youtube.com/watch?v=nNE_JNC_g4A&t=3s" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center mt-3">
-                            Devlog #2 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
-                        </a>
+                    <div class="p-6 pt-0">
+                        <h3 class="text-2xl font-bold text-cyan-500 mb-2">Battlegrounds Development</h3>
+                        <p class="text-gray-400 mb-4 text-base">
+                            Development updates and feature demos for the Battlegrounds project.
+                        </p>
+                        <ul class="space-y-2">
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=wAQ-BuoeXdU&t=13s" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center">
+                                    Devlog #1<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=nNE_JNC_g4A&t=3s" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center">
+                                    Devlog #2<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="project-card group">
-                    <a target="_blank" class="block overflow-hidden">
+                <div class="bg-gray-800 rounded-xl shadow-2xl overflow-hidden transform hover:translate-y-[-5px] transition duration-300 border border-gray-700 group">
+                    <a target="_blank" class="block">
                         <img
                             src="assets/twena.png" 
-                            alt="Thumbnail"
-                            class="w-full h-full rounded-2xl object-cover transition duration-300 transform group-hover:scale-105"
-                            onerror="this.onerror=null; this.src='https://placehold.co/600x300/1f2937/d1d5db?text=Thumbnail'">
+                            alt="Fighting Game Thumbnail"
+                            class="w-full h-48 object-cover mb-4 rounded-xl group-hover:opacity-90 transition duration-300"
+                            onerror="this.onerror=null; this.src='https://placehold.co/600x200/1f2937/d1d5db?text=Fighting+Game+Showcase'">
                     </a>
-                    <div class="p-6">
-                        <h3 class="text-2xl font-bold text-cyan-500 mb-2">Fighting Game</h3>
-                        <p class="text-gray-400 mb-4 text-base">Watch videos on Youtube.</p>
-                        <a href="https://youtu.be/uPvM23TvAis?si=fliPA8YyobUwjnN7" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center mt-3">
-                            Watch Video #1 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
-                        </a>
+                    <div class="p-6 pt-0">
+                        <h3 class="text-2xl font-bold text-cyan-500 mb-2">Fun Games</h3>
+                        <p class="text-gray-400 mb-4 text-base">
+                            This is also a part about my project before me or now.
+                        </p>
+                        <ul class="space-y-2">
+                            <li>
+                                <a href="https://youtu.be/uPvM23TvAis?si=fliPA8YyobUwjnN7" target="_blank" class="text-sm text-cyan-500 hover:text-cyan-400 font-semibold flex items-center">
+                                    Watch Video #1<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link ml-1"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section id="prices" class="py-20 border-t border-gray-700">
+            <h2 class="text-4xl font-bold text-white mb-10 text-center">Price Floors</h2>
+
+            <div class="bg-cyan-600/10 border-l-4 border-cyan-500 p-6 rounded-lg mb-12 max-w-4xl mx-auto">
+                <div class="flex items-center justify-center">
+                    <p class="text-xl font-semibold text-white">
+                        Price is negotiable and it's a reference prices!
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-8xl mx-auto">
+                
+                <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border border-cyan-700/50 transform hover:scale-[1.02] transition duration-300 group">
+                    <h3 class="text-2xl font-bold text-cyan-400 mb-2 group-hover:text-cyan-300 transition">Combat System</h3>
+                    <p class="text-gray-400 mb-3">E.g ragdoll, stun, moveset, etc.</p>
+                    <p class="text-3xl font-extrabold text-white">30 - 57 USD</p>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border border-cyan-700/50 transform hover:scale-[1.02] transition duration-300 group">
+                    <h3 class="text-2xl font-bold text-cyan-400 mb-2 group-hover:text-cyan-300 transition">Data Store</h3>
+                    <p class="text-gray-400 mb-3">Save & Load player data.</p>
+                    <p class="text-3xl font-extrabold text-white">3,8 - 11,38 USD</p>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border border-cyan-700/50 transform hover:scale-[1.02] transition duration-300 group">
+                    <h3 class="text-2xl font-bold text-cyan-400 mb-2 group-hover:text-cyan-300 transition">Game Logic</h3>
+                    <p class="text-gray-400 mb-3">E.g quest system, progress system, achievement system, etc.</p>
+                    <p class="text-3xl font-extrabold text-white">7,56 - 18,96 USD</p>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-xl shadow-2xl border border-cyan-700/50 transform hover:scale-[1.02] transition duration-300 group">
+                    <h3 class="text-2xl font-bold text-cyan-400 mb-2 group-hover:text-cyan-300 transition">R6 Animation</h3>
+                    <p class="text-gray-400 mb-3">E.g combat actions (short), animate pack, etc.</p>
+                    <p class="text-3xl font-extrabold text-white">2,66 - 18,96 USD</p>
+                </div>
+
+            </div>
+        </section>
         <section id="tos" class="py-20 border-t border-gray-700">
             <h2 class="text-4xl font-bold text-white mb-10 text-center">Terms Of Service</h2>
 
-            <h2 class="text-2xl font-semibold text-white mb-3 text-left">1. Payment</h2>
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
-                <div class="flex items-center bg-gray-800 p-5 rounded-xl shadow-xl border border-gray-700">
-                    <p class="text-xl text-white-300 leading-relaxed text-center w-full">
-                        Must pay 20 - 50% of the commission or task <b>before starting the work</b>. (Per agreement)
+            <h2 class="text-3xl font-bold text-cyan-500 mb-6 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-banknote mr-3"><rect width="20" height="12" x="2" y="6" rx="2"/><circle cx="12" cy="12" r="2"/><path d="M6 12h.01M18 12h.01"/></svg>
+                1. Payment Policy
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-12">
+                
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl border border-gray-700 flex items-start space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card text-cyan-500 mt-1 flex-shrink-0"><rect width="20" height="14" x="2" y="5" rx="2"/><line x1="2" x2="22" y1="10" y2="10"/></svg>
+                    <p class="text-lg text-gray-300 leading-relaxed">
+                        Must pay 20% - 50% of the commission or task <b>before starting the work</b>. (Per agreement)
                     </p>
                 </div>
-                <div class="flex items-center bg-gray-800 p-5 rounded-xl shadow-xl border border-gray-700">
-                    <p class="text-xl text-white-300 leading-relaxed text-center w-full">
+                
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl border border-gray-700 flex items-start space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle text-green-500 mt-1 flex-shrink-0"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+                    <p class="text-lg text-gray-300 leading-relaxed">
                         <b>All payments are done</b> before or during the commission or task.
                     </p>
                 </div>
-                <div class="flex items-center bg-gray-800 p-5 rounded-xl shadow-xl border border-gray-700">
-                    <p class="text-xl text-white-300 leading-relaxed text-center w-full">
+                
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl border border-gray-700 flex items-start space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x-circle text-red-500 mt-1 flex-shrink-0"><circle cx="12" cy="12" r="10"/><path d="m15 9-6 6"/><path d="m9 9 6 6"/></svg>
+                    <p class="text-lg text-gray-300 leading-relaxed">
                         No refunds once <b>the work is already done</b>.
                     </p>
                 </div>
-                <div class="flex items-center bg-gray-800 p-5 rounded-xl shadow-xl border border-gray-700">
-                    <p class="text-xl text-white-300 leading-relaxed text-center w-full">
+                
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl border border-gray-700 flex items-start space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wallet text-cyan-500 mt-1 flex-shrink-0"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M22 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2Z"/></svg>
+                    <p class="text-lg text-gray-300 leading-relaxed">
                         Payment methods are VND, USD (Paypal), and Robux (Incl. Tax).
                     </p>
                 </div>
             </div>
 
-            <h2 class="text-2xl font-semibold text-white mb-3 text-left">2. Requirement</h2>
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
-                <div class="flex items-center bg-gray-800 p-5 rounded-xl shadow-xl border border-gray-700">
-                    <p class="text-xl text-white-300 leading-relaxed text-center w-full">
+            <h2 class="text-3xl font-bold text-cyan-500 mb-6 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text mr-3"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/><line x1="10" x2="8" y1="9" y2="9"/></svg>
+                2. Project Requirements
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-12">
+                
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl border border-gray-700 flex items-start space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb text-cyan-500 mt-1 flex-shrink-0"><path d="M15 14c.2-1 .9-1.8 1.8-2.5.3-.2.6-.5.8-.8A2 2 0 0 0 17 8.5C17 5.2 14.4 3 12 3c-2.4 0-5 2.2-5 5.5 0 .3.1.6.3.9.2.3.5.6.8.8.9.7 1.6 1.5 1.8 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
+                    <p class="text-lg text-gray-300 leading-relaxed">
                         Must provide clear references, ideas, or examples.
                     </p>
                 </div>
-                <div class="flex items-center bg-gray-800 p-5 rounded-xl shadow-xl border border-gray-700">
-                    <p class="text-xl text-white-300 leading-relaxed text-center w-full">
+                
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl border border-gray-700 flex items-start space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-alert-triangle text-yellow-500 mt-1 flex-shrink-0"><path d="m21.73 18-8-14a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+                    <p class="text-lg text-gray-300 leading-relaxed">
                         Vague instructions may increase delivery time or pricing.
                     </p>
                 </div>
             </div>
 
-            <h2 class="text-2xl font-semibold text-white mb-3 text-left">3. Commission</h2>
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-10">
-                <div class="flex items-center bg-gray-800 p-5 rounded-xl shadow-xl border border-gray-700">
-                    <p class="text-xl text-white-300 leading-relaxed text-center w-full">
+            <h2 class="text-3xl font-bold text-cyan-500 mb-6 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock mr-3"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                3. Commission & Delivery
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-10">
+                
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl border border-gray-700 flex items-start space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-loader-2 text-cyan-500 mt-1 flex-shrink-0"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>
+                    <p class="text-lg text-gray-300 leading-relaxed">
                         Completion time depends on complexity.
                     </p>
                 </div>
-                <div class="flex items-center bg-gray-800 p-5 rounded-xl shadow-xl border border-gray-700">
-                    <p class="text-xl text-white-300 leading-relaxed text-center w-full">
-                        Pay first, product later.
+                
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl border border-gray-700 flex items-start space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-package text-cyan-500 mt-1 flex-shrink-0"><path d="m7.5 4.27 9 5.15"/><path d="M2.5 8.66l9 5.15 9-5.15"/><path d="M12 22V14.5"/><path d="m22 8.66-9-5.15-9 5.15"/><path d="M2 12l10 6 10-6"/></svg>
+                    <p class="text-lg text-gray-300 leading-relaxed">
+                        <b>All payments are done</b> or during the commission, product later.
                     </p>
                 </div>
-                <div class="flex items-center bg-gray-800 p-5 rounded-xl shadow-xl border border-gray-700">
-                    <p class="text-xl text-white-300 leading-relaxed text-center w-full">
+                
+                <div class="bg-gray-800 p-6 rounded-xl shadow-xl border border-gray-700 flex items-start space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap text-yellow-500 mt-1 flex-shrink-0"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                    <p class="text-lg text-gray-300 leading-relaxed">
                         If you need it faster, an extra fee may apply.
                     </p>
                 </div>
             </div>
         </section>
-
         <section id="contact" class="py-20 border-t border-gray-700">
-            <h2 class="text-4xl font-bold text-white mb-10 text-center">Contact Me</h2>
+            <h2 class="text-4xl font-bold text-white mb-5 text-center">Contact Me</h2>
             <p class="text-xl text-gray-400 text-center mb-10">Reach out directly or connect via my socials. DM me anytime.</p>
 
             <div class="max-w-3xl mx-auto">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 justify-items-center">
+                <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mb-12 justify-items-left">
                     <a href="mailto:phongkorea389@gmail.com" class="contact-link flex items-center">
                         <img src="assets/email.png" alt="Email Icon" class="w-12 h-12 mr-3 rounded-2xl">
                         <span class="text-white font-semibold">phongkorea389@gmail.com</span>
