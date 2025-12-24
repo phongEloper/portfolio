@@ -29,6 +29,8 @@
             <nav class="hidden md:flex space-x-3">
                 <a href="#about"
                     class="text-sm px-4 py-2 font-medium text-slate-600 font-medium hover:text-cyan-600 transition duration-300">About</a>
+                <a href="#skills"
+                    class="text-sm px-4 py-2 font-medium text-slate-600 font-medium hover:text-cyan-600 transition duration-300">Skills</a>
                 <a href="#projects"
                     class="text-sm px-4 py-2 font-medium text-slate-600 font-medium hover:text-cyan-600 transition duration-300">Projects</a>
                 <a href="#showcases"
@@ -54,7 +56,9 @@
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-200 shadow-xl">
             <a href="#about"
                 class="block py-3 px-6 text-slate-600 hover:bg-slate-50 hover:text-cyan-600 transition duration-300">About</a>
-            <a href="#projects"
+            <a href="#skills"
+                class="block py-3 px-6 text-slate-600 hover:bg-slate-50 hover:text-cyan-600 transition duration-300">Skills</a>
+            <a href="#projects" <a href="#projects"
                 class="block py-3 px-6 text-slate-600 hover:bg-slate-50 hover:text-cyan-600 transition duration-300">Projects</a>
             <a href="#showcases"
                 class="block py-3 px-6 text-slate-600 hover:bg-slate-50 hover:text-cyan-600 transition duration-300">Showcases</a>
@@ -86,9 +90,10 @@
                     <span class="text-gradient">3+ years experience</span>
                 </h1>
 
-                <p class="mt-6 text-lg text-slate-700 max-w-xl mx-auto md:mx-0 leading-relaxed">
-                    Hello! I'm <b>Pdv</b>, a full-stack scripter specializing in modular architecture and OOP.
-                    I build scalable systems for Fighting, RPG, and Simulator games.
+                <p class="mt-6 text-lg text-gray-800 max-w-xl mx-auto md:mx-0 leading-relaxed">
+                    Hello, my name is <b>Pdv.</b> I'm a full-stack scripter with over 3 years of experience. In
+                    addition, I'm also familiar with Git, GitHub, Rojo (plugin), and VS Code to support a
+                    professional workflow, whether working independently or as part of a team.
                 </p>
 
                 <div class="mt-8 flex flex-wrap justify-center md:justify-start gap-4">
@@ -143,10 +148,10 @@
                             <path d="m14.5 4-5 16" />
                         </svg>
                     </div>
-                    <h3 class="font-bold text-lg text-black mb-2">Experience</h3>
+                    <h3 class="font-bold text-lg text-black mb-2">Scripting</h3>
                     <p class="text-black leading-relaxed">
-                        3+ years specializing in Battlegrounds, Fighting, RPG, and Simulator games with clean
-                        architecture.
+                        I build game systems that are clean, easy to maintain, and scalable. I specialize in game genres
+                        such as Battlegrounds, RPG, and Simulator.
                     </p>
                 </div>
 
@@ -188,11 +193,42 @@
             </div>
         </section>
 
+        <section id="skills" class="py-20 border-t border-slate-200">
+            <h2 class="text-3xl font-bold text-slate-900 mb-12 text-center">My Skills</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="project-card group relative bg-white shadow-lg hover:-translate-y-2 transition duration-300">
+                    <a class="block overflow-hidden">
+                        <img src="assets/goodSystemArchitecture.png" alt="My Scripts"
+                            class="w-full h-full object-cover transform"
+                            onerror="this.onerror=null; this.src='https://placehold.co/600x400/f1f5f9/64748b?text=Scripts'">
+                    </a>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">System Architecture</h3>
+                        <p class="text-slate-600 mb-4 text-sm leading-relaxed">
+                            I organize my code using a modular structure, arranging modules in a clean and logical way to ensure ease of maintenance in the future.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card group relative bg-white shadow-lg hover:-translate-y-2 transition duration-300">
+                    <a class="block overflow-hidden">
+                        <img src="assets/myModule.png" alt="My Scripts"
+                            class="w-full h-full object-cover transform"
+                            onerror="this.onerror=null; this.src='https://placehold.co/600x400/f1f5f9/64748b?text=Scripts'">
+                    </a>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Demo Code</h3>
+                        <p class="text-slate-600 mb-4 text-sm leading-relaxed">
+                            As stated above, I'm a full-stack scripter who writes code in ModuleScripts using OOP, and I'm capable of making user interfaces (frontend) as well as developing the core systems of a game (backend).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section id="projects" class="py-20 border-t border-slate-200">
             <h2 class="text-3xl font-bold text-slate-900 mb-10 text-center">Featured Projects</h2>
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
-
-                <div class="project-card group relative bg-white shadow-lg">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="project-card group relative bg-white shadow-lg hover:-translate-y-2 transition duration-300">
                     <span
                         class="absolute top-4 left-4 bg-amber-100 text-amber-700 border border-amber-200 text-xs font-bold px-3 py-1 rounded-full z-10">
                         Work in Progress
@@ -204,10 +240,11 @@
                             onerror="this.onerror=null; this.src='https://placehold.co/600x400/f1f5f9/64748b?text=Coalition+Battlegrounds'">
                     </a>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition">Coalition
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Coalition
                             Battlegrounds</h3>
                         <p class="text-slate-600 mb-4 text-sm leading-relaxed">
-                            I am the head scripter responsible for developing a responsive combat system with impactful gameplay.
+                            I am the head scripter responsible for developing a responsive combat system with impactful
+                            gameplay.
                         </p>
                         <a href="https://www.roblox.com/games/17624438086/Coalition-Battlegrounds" target="_blank"
                             class="text-sm text-cyan-600 hover:text-cyan-800 font-semibold flex items-center">
@@ -222,7 +259,7 @@
                     </div>
                 </div>
 
-                <div class="project-card group relative bg-white shadow-lg">
+                <div class="project-card group relative bg-white shadow-lg hover:-translate-y-2 transition duration-300">
                     <span
                         class="absolute top-4 left-4 bg-red-100 text-red-700 border border-red-200 text-xs font-bold px-3 py-1 rounded-full z-10">
                         Transferred
@@ -234,10 +271,11 @@
                             onerror="this.onerror=null; this.src='https://placehold.co/600x400/f1f5f9/64748b?text=Hunt+The+King'">
                     </a>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">
                             [☄️BASEWAR] Hunt The King</h3>
                         <p class="text-slate-600 mb-4 text-sm leading-relaxed">
-                            I served as the head scripter, developing core mechanics before the project was transferred to new ownership.
+                            I served as the head scripter, developing core mechanics before the project was transferred
+                            to new ownership.
                         </p>
                         <a href="https://www.roblox.com/games/16150763708/BASEWAR-Hunt-The-King" target="_blank"
                             class="text-sm text-cyan-600 hover:text-cyan-800 font-semibold flex items-center">
@@ -252,7 +290,7 @@
                     </div>
                 </div>
 
-                <div class="project-card group relative bg-white shadow-lg">
+                <div class="project-card group relative bg-white shadow-lg hover:-translate-y-2 transition duration-300">
                     <span
                         class="absolute top-4 left-4 bg-amber-100 text-amber-700 border border-amber-200 text-xs font-bold px-3 py-1 rounded-full z-10">
                         Work in Progress
@@ -264,7 +302,7 @@
                             onerror="this.onerror=null; this.src='https://placehold.co/600x400/f1f5f9/64748b?text=Brainrot+Showdown'">
                     </a>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition">Brainrot
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Brainrot
                             Showdown</h3>
                         <p class="text-slate-600 mb-4 text-sm leading-relaxed">
                             I am the head scripter developing a smooth, responsive combat system focused on game feel.
@@ -282,7 +320,7 @@
                     </div>
                 </div>
 
-                <div class="project-card group relative bg-white shadow-lg">
+                <div class="project-card group relative bg-white shadow-lg hover:-translate-y-2 transition duration-300">
                     <span
                         class="absolute top-4 left-4 bg-amber-100 text-amber-700 border border-amber-200 text-xs font-bold px-3 py-1 rounded-full z-10">
                         Work in Progress
@@ -294,7 +332,7 @@
                             onerror="this.onerror=null; this.src='https://placehold.co/600x400/f1f5f9/64748b?text=Eldforge+RPG'">
                     </a>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition">Eldforge
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Eldforge
                         </h3>
                         <p class="text-slate-600 mb-4 text-sm leading-relaxed">
                             I am the backend scripter for an expansive open-world RPG game.
@@ -312,7 +350,7 @@
                     </div>
                 </div>
 
-                <div class="project-card group relative bg-white shadow-lg">
+                <div class="project-card group relative bg-white shadow-lg hover:-translate-y-2 transition duration-300">
                     <span
                         class="absolute top-4 left-4 bg-green-100 text-green-700 border border-green-200 text-xs font-bold px-3 py-1 rounded-full z-10">
                         Released
@@ -324,7 +362,7 @@
                             onerror="this.onerror=null; this.src='https://placehold.co/600x400/f1f5f9/64748b?text=Startup+Plus'">
                     </a>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition">Startup
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Startup
                             Plus [Plugin]</h3>
                         <p class="text-slate-600 mb-4 text-sm leading-relaxed">
                             A plugin that allows developers to customize their startup code workflow.
@@ -342,7 +380,7 @@
                     </div>
                 </div>
 
-                <div class="project-card group relative bg-white shadow-lg">
+                <div class="project-card group relative bg-white shadow-lg hover:-translate-y-2 transition duration-300">
                     <span
                         class="absolute top-4 left-4 bg-green-100 text-green-700 border border-green-200 text-xs font-bold px-3 py-1 rounded-full z-10">
                         Released
@@ -354,7 +392,7 @@
                             onerror="this.onerror=null; this.src='https://placehold.co/600x400/f1f5f9/64748b?text=Servers+Module'">
                     </a>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition">Servers
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Servers
                             [ModuleScript]</h3>
                         <p class="text-slate-600 mb-4 text-sm leading-relaxed">
                             Open-source ModuleScript for monitoring active game servers.
@@ -408,7 +446,7 @@
 
                 <div class="bg-white shadow-lg border border-slate-100 overflow-hidden group">
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-slate-900 mb-2">Fun Games</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Fighting Games</h3>
                         <p class="text-slate-600 mb-4 text-sm">Showcases of various mechanics and fighting game tests.
                         </p>
                         <div class="space-y-2">
@@ -475,13 +513,15 @@
                                 begins.</p>
                         </div>
                         <div class="bg-white p-5 shadow-lg border border-slate-300 flex items-start space-x-3">
-                            <p class="text-slate-900">All payments are required upfront or during the commission process.</p>
+                            <p class="text-slate-900">All payments are required upfront or during the commission
+                                process.</p>
                         </div>
                         <div class="bg-white p-5 shadow-lg border border-slate-300 flex items-start space-x-3">
                             <p class="text-slate-900">No refunds once the work has been completed.</p>
                         </div>
                         <div class="bg-white p-5 shadow-lg border border-slate-300 flex items-start space-x-3">
-                            <p class="text-slate-900">Payment methods accepted: VND, USD (Paypal), Robux (Incl. Tax).</p>
+                            <p class="text-slate-900">Payment methods accepted: VND, USD (Paypal), Robux (Incl. Tax).
+                            </p>
                         </div>
                     </div>
                 </div>
